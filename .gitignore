@@ -1,0 +1,36 @@
+# ==========================
+# Node & General Ignores
+# ==========================
+node_modules/
+npm-debug.log*
+package-lock.json
+.env
+.DS_Store
+
+# ==========================
+# Frontend
+# ==========================
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.cache
+
+# ==========================
+# Backend
+# ==========================
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/uploads/
+backend/tmp/
+backend/debug.log
+
+# ==========================
+# System / Editor files
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+*.iml
